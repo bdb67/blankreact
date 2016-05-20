@@ -1,0 +1,27 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather app from reactjs program",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
+  },
+  "author": "Brandon Bass",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-router": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.17.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
